@@ -23,7 +23,10 @@ Un servidor espejo, en el contexto de sistemas informáticos y redes, es una ré
    - Asegúrate de que el firewall en la máquina con Windows permita la conexión desde Ubuntu Server.
 
 3. **Configuración en Ubuntu Server**
-   - Instala el cliente MySQL en Ubuntu Server si aún no lo has hecho: ```sudo apt-get install mysql-client```.
+   - Instala el cliente MySQL en Ubuntu Server si aún no lo has hecho:
+     ```bash
+     sudo apt-get install mysql-client
+     ```
    - Conéctate a la base de datos MySQL en XAMPP desde Ubuntu Server: `mysql -h <IP_de_la_máquina_con_Windows> -u <usuario> -p`.
 
 ## Notas importantes
