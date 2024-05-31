@@ -116,13 +116,21 @@ Un servidor espejo, en el contexto de sistemas informáticos y redes, es una ré
      ```
 7. **Realizamos la configuración de Windows**
    - Primero vamos a enlazar la carpeta previamente compartida con Samba, entramos al `Explorador de archivos`, seguido haciendo click derecho sobre `Este Equipo` y `Conectar a unidad de red` para tener la ventana emergente.
+   
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/2cb6c544-542c-40cb-afd6-5070f036423f)
+
    - Dentro del campo de Carpeta, vamos a ingresar la ip de Ubuntu Server que obtuvimos antes y la carpeta compartida y presionamos Finalizar.
+     
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/d771999e-973f-4a20-8009-daf03407abb8)
+
    - Usamos las credenciales ya antes creadas del usuario `test`.
+     
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/06826985-4d7e-41ee-9de8-b2eeb4430725)
+
    - Si todo salio bien debemos poder acceder a la unidad compartida y se verá de esta manera.
+     
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/24ebf7b2-4c16-4d7d-b130-0bf5b5456a66)
+
    - Dentro de esta carpeta compartida podemos añadir nuestros archivos html y php para visualizar en la web, en mi caso cree los siguientes `index.html` y `mostrar_datos.php`.
      ```html
      <!DOCTYPE html>
@@ -278,15 +286,23 @@ DocumentRoot "Z:/"
      En `Source Port` pondremos el puerto del mysql, que es el `3306`
      En `Destination` pondremos `127.0.0.1:3306` que indica el servidor local.
      Después de añadir eso, presionamos `Add`.
+     
  ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/10d4f702-6861-4ed8-8145-4a58f664a6b3)
+ 
    - Ahora en el mismo menú de la izquierda presionaremos `Session` y modificamos:
      En `Hosr Name (or IP address)` pondremos la ip de nuestro Ubuntu Server.
      En `Saved Sessions` pondremos un nombre identificativo y luego presionamos `Save`
+     
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/d4c70b32-1f42-40aa-9847-8d16b86dcd90)
+
      Finalmente Seleccionamos dentro de las sesiones la que recien creamos y presionamos `Open`, nos abrirá un menú y solo presionamos `Accept`.
+     
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/a8f78931-01c5-41a2-a456-12bb3dd6bc84)
+
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/caa4c9e7-b049-48d8-89bf-bb77f0432e3f)
+
       Ahora ingresamos nuestras credenciales de Ubuntu Server, como por SSH y estaremos logueados, solo minimizaremos esa pestaña.
+      
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/cc093bdb-559e-401d-87d7-e52bdff41043)
 
    - Una vez finalizada la conexion de PuTTY, ubicaremos el archivo `config.inc.php`, en mi caso esta en la carpeta `C:\xampp\phpMyAdmin` y vamos a dejarlo de la siguiente manera:
@@ -354,9 +370,13 @@ DocumentRoot "Z:/"
    ```
 8. **Probamos el resultado encendiendo XAMPP**
    - Una vez realizada toda la configuración, podemos encender los servicios de `Apache` y `MySQL` en XAMPP, fijandonos que ambos servicios se vean en verde.
+     
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/3a23e62a-8033-4573-b380-de239e796faf)
+
    - Accedemos a cualquier navegador al `localhost` y la ip de la maquina Ubuntu Server (En mi caso `192.168.1.107`). En ambas paginas web debemos tener el mismo resultado, y al presionar en `Ver tablas` debemos poder mirar la base de datos enlazada, a la cual podemos añadir o quitar datos dentro del sistema y ahi se verá afectado.
+     
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/35eb3eb8-dd7a-4008-b229-9ca5bf94c20d)
+
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/e51be924-ca42-41e9-8255-0348564293f1)
 
 
