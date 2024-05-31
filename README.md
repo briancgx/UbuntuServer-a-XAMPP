@@ -290,7 +290,7 @@ DocumentRoot "Z:/"
  ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/10d4f702-6861-4ed8-8145-4a58f664a6b3)
  
    - Ahora en el mismo menú de la izquierda presionaremos `Session` y modificamos:
-     En `Hosr Name (or IP address)` pondremos la ip de nuestro Ubuntu Server.
+     En `Host Name (or IP address)` pondremos la ip de nuestro Ubuntu Server.
      En `Saved Sessions` pondremos un nombre identificativo y luego presionamos `Save`
      
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/d4c70b32-1f42-40aa-9847-8d16b86dcd90)
