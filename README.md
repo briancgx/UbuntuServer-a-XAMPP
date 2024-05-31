@@ -385,4 +385,4 @@ DocumentRoot "Z:/"
 - Este proceso asume que ambos sistemas están en la misma red local.
 - Asegúrate de configurar adecuadamente la seguridad de tu base de datos y red para evitar accesos no autorizados.
 
-[briancgx](http://instagram.com/briancgx)
+© briancgx
