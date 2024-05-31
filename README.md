@@ -295,7 +295,7 @@ DocumentRoot "Z:/"
      
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/d4c70b32-1f42-40aa-9847-8d16b86dcd90)
 
-     Finalmente Seleccionamos dentro de las sesiones la que recien creamos y presionamos `Open`, nos abrirá un menú y solo presionamos `Accept`.
+   Finalmente Seleccionamos dentro de las sesiones la que recien creamos y presionamos `Open`, nos abrirá un menú y solo presionamos `Accept`.
      
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/a8f78931-01c5-41a2-a456-12bb3dd6bc84)
 
