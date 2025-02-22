@@ -2,6 +2,10 @@
 
 Este repositorio contiene instrucciones detalladas para enlazar un servidor Ubuntu con un entorno XAMPP en una máquina con Windows, este enlace unicamente será con los servicios de MySQL y Apache2, funcionará como un servidor espejo.
 
+## Notas importantes
+- Este proceso asume que ambos sistemas están en la misma red local.
+- Asegúrate de configurar adecuadamente la seguridad de tu base de datos y red para evitar accesos no autorizados.
+
 ## Importancia de un servidor espejo
 Un servidor espejo, en el contexto de sistemas informáticos y redes, es una réplica exacta de otro servidor que se utiliza para mejorar la disponibilidad, la escalabilidad y la redundancia de los servicios ofrecidos. El servidor espejo replica los datos y configuraciones del servidor principal de manera regular y automática, de modo que si el servidor principal falla o se vuelve inaccesible, el servidor espejo puede tomar su lugar y continuar ofreciendo los servicios sin interrupción. Esto ayuda a garantizar la continuidad del servicio y a reducir los tiempos de inactividad en caso de fallos. Los servidores espejo también se utilizan a menudo para distribuir cargas de trabajo, mejorar el rendimiento y proporcionar una mayor capacidad de procesamiento.
 
@@ -378,11 +382,5 @@ DocumentRoot "Z:/"
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/35eb3eb8-dd7a-4008-b229-9ca5bf94c20d)
 
 ![image](https://github.com/briancgx/UbuntuServer-a-XAMPP/assets/118696146/e51be924-ca42-41e9-8255-0348564293f1)
-
-
-## Notas importantes
-
-- Este proceso asume que ambos sistemas están en la misma red local.
-- Asegúrate de configurar adecuadamente la seguridad de tu base de datos y red para evitar accesos no autorizados.
 
 © briancgx
